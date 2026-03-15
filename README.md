@@ -11,6 +11,7 @@
 - **登录日志**：记录玩家登录尝试、成功登录和被拒绝的登录
 - **管理员通知**：当玩家登录或被拒绝时通知拥有权限的管理员
 - **配置灵活**：可以在config.yml中配置通知设置
+- **数据统计**：集成bstats统计，帮助了解插件使用情况
 
 ## 命令
 
@@ -77,6 +78,10 @@ players:
 ```bash
 mvn clean package
 ```
+
+## 统计
+
+[![bStats](https://bstats.org/api/bukkit/12345/charts/servers.svg)](https://bstats.org/plugin/bukkit/MoMoIPWhitelist)
 
 ## 许可证
 
