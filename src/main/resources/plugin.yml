@@ -1,0 +1,21 @@
+name: MoMoIPWhitelist
+version: 1.0.0
+author: xyoska
+main: com.momoiptools.MoMoIPWhitelist
+description: A plugin that restricts players to specific IP addresses
+commands:
+  moipwl:
+    description: Manage IP whitelist
+    usage: /moipwl <add|remove|list|reload>
+    permission: momoipwhitelist.admin
+  momoipwhitelist:
+    description: Manage IP whitelist
+    usage: /momoipwhitelist <add|remove|list|reload>
+    permission: momoipwhitelist.admin
+permissions:
+  momoipwhitelist.admin:
+    description: Allows managing IP whitelist
+    default: op
+  momoipwhitelist.notify:
+    description: Allows receiving IP whitelist notifications
+    default: op

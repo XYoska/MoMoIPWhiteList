@@ -1,0 +1,23 @@
+# Gradle
+.gradle/
+build/
+
+# Maven
+target/
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Config files
+config.yml
